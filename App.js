@@ -117,7 +117,6 @@ export default class App extends React.Component{
 					<Text>將路徑{pathOriginal}刪掉（包含子資料夾）</Text>
 				}
 				<Text>幾秒後動作：{randomTime}</Text>
-				<Text>{JSON.stringify(paths)}</Text>
 
 				<View>
 					{paths.map((e, i)=>{
